@@ -3,12 +3,12 @@
     <h1>Register with us</h1>
 
     <div class="container">
-      <form>
+      
         <div class="card bg-white col-lg-6 mx-auto my-5">
           <div class="card-body">
             <div class="row">
               <!-- <h2 class="display-5 text-center">Hozula Dev</h2> -->
-
+<form>
               <div v-if="step === 1">
                 <h2>Step 1</h2>
                 <div class="col-xl-12">
@@ -70,7 +70,10 @@
                 <button class="btn btn-primary" @click="next()"> Next</button>
 
               </div>
+</form>
               <div v-if="step ===2">
+
+                  <h1>Step 2</h1>
                 <div class="col-xl-12">
                   <div class="form-group">
                     <textarea
@@ -126,6 +129,9 @@
 
 
               <div v-if="step ===3">
+
+                  <h1>Step 3</h1>
+
               <div class="col-xl-12">
                 <div class="form-group">
                   <label for="flier">Upload Flier</label>
@@ -181,19 +187,32 @@
                 </div>
               </div>
 
-              <button class="btn btn-dark btn-lg" type="submit">Submit</button>
+              <!-- <button class="btn btn-dark btn-lg" type="submit" @click="submit()">Submit</button> -->
 
 
 
     <button class="btn btn-primary" @click="previous()"> previous</button>
 
-                <button class="btn btn-primary" @click="next()"> Next</button>
+                <button class="btn btn-primary" @click="next()"> REview</button>
+
+              </div>
+
+              <div class="final-page" v-if="step === 4">
+
+
+<!-- {{userData}} -->
+
+<p>
+
+    Name:{{userData.name}}
+</p>
+Date of birth: {{userData.DOB}}
 
               </div>
             </div>
           </div>
         </div>
-      </form>
+    
     </div>
   </div>
 </template>
@@ -239,10 +258,17 @@ if(this.userData.name == null){
 else{
 this.step ++
 
+} }, 
+
+submit(){
+
+
+    this.step += 4
 }
+
 
 
  
   
-}}};
+}};
 </script>
