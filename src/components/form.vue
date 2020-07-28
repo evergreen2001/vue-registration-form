@@ -225,16 +225,24 @@ export default {
   methods:{
 
       previous(){
-
-
 this.step --
       } , 
 
       next(){
 
+
+if(this.userData.name == null){
+
+    alert('check form for errors ')
+}
+
+else{
 this.step ++
 
-      }
-  }
-};
+}
+
+
+ 
+  
+}}};
 </script>
