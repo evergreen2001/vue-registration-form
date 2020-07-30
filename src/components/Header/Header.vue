@@ -17,32 +17,46 @@
         </ul>
 
          <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#" tabindex="-1">
+         
+      
+
+             <li class="nav-item">
+                 <router-link to="/">  Home    </router-link>         </li>
+        
+
+
+            
+            
+    <li class="nav-item">
+   <router-link to="/about">             
 About
+ </router-link>
 
-                </a>
+              
             </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="#" tabindex="-1">
+            
+        
+
+
+   <li class="nav-item">
+            <router-link to="/jobs">    
 Jobs
 
-                </a>
+                 </router-link>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" tabindex="-1">
+              
 En/De
 
-                </a>
+                
             </li>
 
-<button class="btn btn-primary">
+         
+
+<!-- <button class="btn btn-primary">
     Request for Invite 
-</button>
+</button> -->
         </ul>
     </div>
 </nav>

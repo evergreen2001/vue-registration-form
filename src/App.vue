@@ -3,6 +3,7 @@
     
     <Header/>
 
+<router-view></router-view>
     <Footer/>
   </div>
 </template>
@@ -25,5 +26,5 @@ export default {
 
 <style>
 @import './assets/css/bootstrap.min.css'; 
-@import './assets/css/main.css'
+@import './assets/css/main.css';
 </style>
