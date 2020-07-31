@@ -29,7 +29,7 @@ a:hover {
 }
 section h1,
 section h2 {
-  font-size: 7vw;
+  font-size: 5vw;
   font-weight: 700;
   color: #a29fa8;
   margin-top: 100px;
@@ -55,8 +55,8 @@ section .hero-img {
   font-size: 14px;
   display: inline-block;
   width: 40%; 
-margin:0 0.3em 0.3em 0;
-padding:0.3em 1.2em;
+margin:0.5em 0.7em 0.7em 0;
+padding:0.9em 1.2em;
 }
 
 /*media quries*/
@@ -72,6 +72,18 @@ padding:0.3em 1.2em;
 
 p {
   color: grey;
-  font-size: 16px;
+  font-size: 21px;
+}
+
+.text-iconx{
+  font-size:18px;
+  font-weight:700;
+  margin-bottom: 0;
+
+}
+
+.text-icon{
+  font-size:18px;
+  margin-bottom: 0;
 }
 
