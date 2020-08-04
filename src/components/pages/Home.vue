@@ -29,7 +29,7 @@
       <p>Get all the pieces you need, and none of the ones that you don’t. We’ve crafted a single dead-simple service for you.</p>
 
 <div class="container">
-<div class="icons-area row mt-5">
+<div class="icons-area row m-auto">
 
 <div class="col-lg-4">
 
@@ -113,7 +113,7 @@
 </div>
 
 </div>
-
+</div>
       
      
     </div>
