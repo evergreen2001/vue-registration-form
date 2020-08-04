@@ -64,7 +64,7 @@
         />
       </svg>
       <p class="text-iconx">An e-bike</p>
-      <p class="text-icon">The ultimate urban electric bike</p>
+      <p class="text-icon">The ultimate urban <br>electric bike</p>
 
 </div>
 <div class="col-lg-4">
