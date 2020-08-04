@@ -30,7 +30,7 @@
 
       <div class="container">
         <div class="icons-area row m-auto">
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-6">
             <svg
               width="100"
               height="100"
@@ -67,7 +67,7 @@
               <br />electric bike
             </p>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-6">
             <svg
               width="100"
               height="100"
@@ -110,7 +110,7 @@
               <br />&amp; all services included.
             </p>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 mx-auto mt-5">
             <svg
               width="100"
               height="100"
