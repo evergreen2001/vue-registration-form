@@ -19,7 +19,7 @@
             Request an invitation for your own subscription electric bike that includes our bike-concierge.
           </p>
           <br />
-          <button class="btn btnx mt-1">Request an invite</button>
+          <button class="btn btnx btn-block mt-1">Request an invite</button>
         </div>
       </div>
     </div>
@@ -145,7 +145,7 @@
 
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat temporibus quo nostrum asperiores quibusdam. Repudiandae illum, veritatis repellat omnis earum officia, quos sit ullam dolorum rerum incidunt, fugit temporibus inventore?Quasi, quas praesentium doloremque quisquam minima maxime sapiente quos quibusdam suscipit debitis quod rem illum eveniet ipsum corporis accusantium autem ipsam numquam ea cupiditate delectus vel? Vero rerum labore iure.</p>
 
-          <button class="btn btnx">Request an invite</button>
+          <button class="btn btnx ~-block">Request an invite</button>
         </div>
         <div class="col-lg-6">
           <img src />

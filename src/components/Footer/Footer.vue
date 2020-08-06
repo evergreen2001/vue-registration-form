@@ -3,6 +3,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
+
+          <img :src="imglogo" class="logo">
           <ul>
             <li>Press</li>
             <li>Privacy</li>
@@ -14,3 +16,15 @@
     <div class="col-lg-6"></div>
   </footer>
 </template>
+<script>
+
+import logo from "../../assets/logo.png";
+
+export default {
+  data() {
+    return {
+      imglogo: logo
+    };
+  }
+};
+</script>

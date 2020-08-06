@@ -21,6 +21,11 @@ section {
   font-size: 17px;
 }
 
+.logo{
+  width:50%;
+
+}
+
 a {
   color: #49464f;
 }
@@ -101,3 +106,4 @@ footer li{
   display:inline ;
   margin-left:25px;
 }
+
