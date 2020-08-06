@@ -162,6 +162,10 @@ footer .logo {
   
 }
 
+
+.brown_text{
+  color:brown;
+}
 .career_area{
 
   width:80%;
@@ -169,5 +173,12 @@ footer .logo {
   margin-top:40px;
   background-color: black;
   color:white;
+  padding-top:40px;
+  padding-bottom:40px;
+  padding-left:60px;
+  padding-right:100px;
+  
+
+
 
 }
