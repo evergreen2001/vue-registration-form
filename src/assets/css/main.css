@@ -145,3 +145,29 @@ footer .logo {
 
   width:20%;
 }
+
+.image-areax{
+
+  height:100%;
+  background-color:black;
+  width:80%;
+  border-radius:20px;
+  padding-top:300px;
+  padding-bottom:300px;
+  margin-top:40px;
+  background-image:url(../../assets/pic.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:
+  
+}
+
+.career_area{
+
+  width:80%;
+  border-radius:20px;
+  margin-top:40px;
+  background-color: black;
+  color:white;
+
+}
