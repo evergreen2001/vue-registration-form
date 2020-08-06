@@ -2,7 +2,7 @@
 
 <template>
   <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand ">
+    <a class="navbar-brand">
       <img :src="imglogo" class="img-fluid logo" />
     </a>
     <button

@@ -26,6 +26,8 @@ section {
 
 }
 
+
+
 a {
   color: #49464f;
 }
@@ -87,12 +89,31 @@ p {
 
 }
 
+.roundedx{
+
+  background-color:rgba(100, 98, 98, 0.108);
+  font-size:15px;
+  padding:10px;
+  margin-left:20px;
+  border-radius:50px;
+  color:brown
+  
+
+
+}
+
+img:hover{
+ 
+  width:100%;
+}
 .text-icon{
   font-size:24px;
   margin-bottom: 0;
 }
 footer{
 
+  border-top:solid 1px ;
+  margin-top:50px;
 
 }
 
@@ -107,3 +128,7 @@ footer li{
   margin-left:25px;
 }
 
+footer .logo {
+
+  width:20%;
+}

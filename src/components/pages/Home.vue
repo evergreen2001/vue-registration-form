@@ -30,7 +30,7 @@
 
       <div class="container">
         <div class="icons-area row m-auto">
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-6 mt-5">
             <svg
               width="100"
               height="100"
@@ -67,7 +67,7 @@
               <br />electric bike
             </p>
           </div>
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-6 mt-5">
             <svg
               width="100"
               height="100"
@@ -179,7 +179,7 @@
             <br />with no sweat.
           </p>
         </div>
-      <div class="col-lg-6 col-md-6 text-center">
+        <div class="col-lg-6 col-md-6 text-center">
           <svg
             width="29"
             height="28"
@@ -205,8 +205,28 @@
             />
           </svg>
           <p class="text-iconx">Sustainable</p>
-          <p>Healthy for you, healthy <br>for the environment.</p>
+          <p>
+            Healthy for you, healthy
+            <br />for the environment.
+          </p>
         </div>
+      </div>
+    </div>
+    <div class="row container mt-5">
+      <div class="col-lg-6 m-auto">
+        <img :src="phone" class="img-fluid" />
+      </div>
+      <div class="col-lg-6">
+        <h1>Add a screen to your Race</h1>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos necessitatibus labore beatae provident 
+          modi ducimus dolorem numquam hic temporibus? Exercitationem illum at nostrum error labore consectetur nesciunt corrupti similique unde.</p>
+
+
+          <span class="roundedx"> Share with friends </span>
+          <span  class="roundedx"> Race Dashboard </span>
+
+
       </div>
     </div>
   </section>
@@ -214,5 +234,12 @@
 
 
 <script>
-export default {};
+import phoneimg from "../../assets/phonexx.png";
+export default {
+  data() {
+    return {
+      phone: phoneimg
+    };
+  }
+};
 </script>
