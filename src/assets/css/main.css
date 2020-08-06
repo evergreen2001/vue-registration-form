@@ -11,28 +11,33 @@ body {
 section {
   width: 100%;
 }
-
+.navbar{
+  background-color:white;
+}
 .nav-item {
   margin-left: 20px;
   margin-right: 20px;
   padding: 30px;
   text-align: center;
-  font-weight: 700;
-  font-size: 17px;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
-.logo{
-  width:30%;
-
+.logo {
+  width: 30%;
 }
-
-
 
 a {
   color: #49464f;
 }
-a:hover {
+ul a:active {
+
+border-bottom: 2px solid ;
+}
+ul a:hover {
   text-decoration: none;
+  color: red;
+  border-bottom: 2px solid;
 }
 section h1,
 section h2 {
@@ -47,138 +52,135 @@ section .hero-img {
 }
 
 .hero-container {
-  background-color: rgba(255, 192, 203, 0.394);
+  background-color: rgba(255, 0, 0, 0.135);
+
   width: 100%;
   padding-bottom: 5px;
   object-position: right bottom;
-  border-radius: 50px;;
+  border-radius: 50px;
+}
+
+.hero-container:hover{
+  background-color: white;
+  color:black;
 }
 
 .btnx {
   border-radius: 1000px;
   transition: background-color 0.15s ease;
-  background-color: rgba(113, 64, 235, 0.75);
+  background-color:red;
   color: #fff;
   font-size: 13px;
   display: inline-block;
-  width: 40%; 
-margin:0.5em 0.7em 0.7em 0;
-padding:0.9em 1.2em;
+  width: 40%;
+  margin: 0.5em 0.7em 0.7em 0;
+  padding: 0.9em 1.2em;
 }
 
 /*media quries*/
 
-
 .btnx:active {
-    -webkit-transform: scale(0.80);
-    -moz-transform: scale(0.80);
-    -ms-transform: scale(0.80);
-    -o-transform: scale(0.80);
-    transform: scale(0.80);
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  transform: scale(0.8);
 }
 
 p {
-  color: grey;
-  font-size:24px;
+  color:black;
+  font-size: 24px;
 }
 
-.text-iconx{
-  font-size:24px;
-  font-weight:700;
-  margin-bottom: 0;
-
-}
-
-.roundedx{
-
-  background-color:rgba(100, 98, 98, 0.108);
-  font-size:15px;
-  padding:10px;
-  margin-left:20px;
-  border-radius:50px;
-  color:brown
-  
-
-
-}
-
-.image-area{
-  background-color:black;
-  width:80%;
-  border-radius:20px;
-  padding:20px;
-  margin-top:40px;
-  background-image:url(../../assets/bg.jpg);
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position:
-  
-
-}
-img:hover{
- 
-  width:100%;
-}
-.text-icon{
-  font-size:24px;
+.text-iconx {
+  font-size: 24px;
+  font-weight: 700;
   margin-bottom: 0;
 }
-footer{
 
-  border-top:solid 1px ;
-  margin-top:50px;
 
+.roundedx {
+  background-color: rgba(100, 98, 98, 0.108);
+  font-size: 15px;
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 50px;
+  color: brown;
 }
 
-footer ul{
-list-style-type:none;
-display:inline;
-
+.image-area {
+  background-color: black;
+  width: 80%;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 40px;
+  background-image: url(../../assets/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
-footer li{
-  display:inline ;
-  margin-left:25px;
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.666);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+img:hover {
+  width: 100%;
+}
+.text-icon {
+  font-size: 24px;
+  margin-bottom: 0;
+}
+footer {
+  border-top: solid 1px;
+  margin-top: 50px;
+}
+
+footer ul {
+  list-style-type: none;
+  display: inline;
+}
+
+footer li {
+  display: inline;
+  margin-left: 25px;
 }
 
 footer .logo {
-
-  width:20%;
+  width: 20%;
 }
 
-.image-areax{
-
-  height:100%;
-  background-color:black;
-  width:80%;
-  border-radius:20px;
-  padding-top:300px;
-  padding-bottom:300px;
-  margin-top:40px;
-  background-image:url(../../assets/pic.jpg);
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position:
-  
-}
-
-
-.brown_text{
-  color:brown;
-}
-.career_area{
-
-  width:80%;
-  border-radius:20px;
-  margin-top:40px;
+.image-areax {
+  height: 100%;
   background-color: black;
-  color:white;
-  padding-top:40px;
-  padding-bottom:40px;
-  padding-left:60px;
-  padding-right:100px;
-  
+  width: 80%;
+  border-radius: 20px;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  margin-top: 40px;
+  background-image: url(../../assets/pic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: ;
+}
 
-
-
+.brown_text {
+  color: brown;
+}
+.career_area {
+  width: 80%;
+  border-radius: 20px;
+  margin-top: 40px;
+  background-color: black;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 60px;
+  padding-right: 100px;
 }

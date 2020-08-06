@@ -232,6 +232,7 @@
     </div>
 
     <div class="image-area container text-white">
+      <div class="overlay"></div>
       <div class="row">
         <div class="col-lg-6 text-white">
           <h2 class="text-white">Join the Movement to Race</h2>

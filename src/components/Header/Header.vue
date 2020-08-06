@@ -1,7 +1,7 @@
 
 
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <a class="navbar-brand">
       <img :src="imglogo" class="img-fluid logo" />
     </a>
