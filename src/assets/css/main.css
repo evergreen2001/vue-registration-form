@@ -38,7 +38,7 @@ section h1,
 section h2 {
   font-size: 5vw;
   font-weight: 700;
-  color: #a29fa8;
+  color: black;
   margin-top: 100px;
 }
 section .hero-img {
@@ -111,7 +111,7 @@ p {
   background-image:url(../../assets/bg.jpg);
   background-repeat:no-repeat;
   background-size:cover;
-  background-position:fixed;
+  background-position:
   
 
 }
