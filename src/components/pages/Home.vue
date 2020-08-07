@@ -1,7 +1,7 @@
 <template>
-  <section>
+  <section class="mt-5">
     <div class="container">
-      <h1 class="text-center">Nothing compares to the simple pleasure of Running</h1>
+      <h1 class="text-center" v-scroll-reveal.reset={delay:400}>Nothing compares to the simple pleasure of Running</h1>
     </div>
 
     <div class="container-fluid hero-container">
@@ -19,7 +19,7 @@
             Request an invitation for your own subscription electric bike that includes our bike-concierge.
           </p>
           <br />
-          <button class="btn btnx btn-block mt-1">Request an invite</button>
+          <button class="btn btnx btn-block mt-1" v-scroll-reveal.reset={delay:500}>Request an invite</button>
         </div>
       </div>
     </div>
@@ -29,7 +29,7 @@
       <p>Get all the pieces you need, and none of the ones that you don’t. We’ve crafted a single dead-simple service for you.</p>
 
       <div class="container">
-        <div class="icons-area row m-auto">
+        <div class="icons-area row m-auto" v-scroll-reveal.reset={delay:700}>
           <div class="col-lg-4 col-md-6 mt-5">
             <svg
               width="100"
@@ -139,7 +139,7 @@
     </div>
 
     <div class="hero-third hero-container">
-      <div class="row container">
+      <div class="row container" v-scroll-reveal.reset="{delay:900}">
         <div class="col-lg-6 mx-5">
           <h1>The Ultimate Urban Electric Bike.</h1>
 
