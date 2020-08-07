@@ -145,7 +145,9 @@
 
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat temporibus quo nostrum asperiores quibusdam. Repudiandae illum, veritatis repellat omnis earum officia, quos sit ullam dolorum rerum incidunt, fugit temporibus inventore?Quasi, quas praesentium doloremque quisquam minima maxime sapiente quos quibusdam suscipit debitis quod rem illum eveniet ipsum corporis accusantium autem ipsam numquam ea cupiditate delectus vel? Vero rerum labore iure.</p>
 
-          <button class="btn btnx ~-block">Request an invite</button>
+          <button class="btn btnx btn-block">Request an invite</button>
+          <button class="btn btnx btn-block mt-1">Request an invite</button>
+
         </div>
         <div class="col-lg-6">
           <img src />
@@ -219,15 +221,39 @@
       <div class="col-lg-6">
         <h1>Add a screen to your Race</h1>
 
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos necessitatibus labore beatae provident 
-          modi ducimus dolorem numquam hic temporibus? Exercitationem illum at nostrum error labore consectetur nesciunt corrupti similique unde.</p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos necessitatibus labore beatae provident
+          modi ducimus dolorem numquam hic temporibus? Exercitationem illum at nostrum error labore consectetur nesciunt corrupti similique unde.
+        </p>
 
-
-          <span class="roundedx"> Share with friends </span>
-          <span  class="roundedx"> Race Dashboard </span>
-
-
+        <span class="roundedx">Share with friends</span>
+        <span class="roundedx">Race Dashboard</span>
       </div>
+    </div>
+
+    <div class="image-area container text-white">
+      <div class="row">
+        <div class="col-lg-6 text-white">
+          <h2 class="text-white">Join the Movement to Race</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <p
+            class="text-white"
+          >With Runx your Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, commodi? Eos, incidunt error! Repudiandae, earum! Reiciendis nesciunt quis necessitatibus iusto quidem, ratione consequuntur quisquam nisi aliquid itaque ut. Modi, ea.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center container">
+      <h1>Request an Invite Today</h1>
+
+      <p>adipisicing elit. Fugiat, commodi? Eos, incidunt error! Repudiandae, earum! Reiciendis nesciunt quis necessitatibus iusto quidem, ratione consequuntur quisquam nisi aliquid itaque ut. Modi, ea.</p>
+      
+          <button class="btn btnx btn-block mt-1">Request an invite</button>
+
     </div>
   </section>
 </template>

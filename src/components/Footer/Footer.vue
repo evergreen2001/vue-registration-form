@@ -6,9 +6,9 @@
       <div class="row">
         <div class="col-lg-6">
          <hr>
-<a class="navbar-brand">
+
           <img :src="imglogo" class="logo img-fluid">
-          </a>
+          
           <ul>
             <li>Press</li>
             <li>Privacy</li>

@@ -102,6 +102,19 @@ p {
 
 }
 
+.image-area{
+  background-color:black;
+  width:80%;
+  border-radius:20px;
+  padding:20px;
+  margin-top:40px;
+  background-image:url(../../assets/bg.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:fixed;
+  
+
+}
 img:hover{
  
   width:100%;
