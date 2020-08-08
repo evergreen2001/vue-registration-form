@@ -139,7 +139,7 @@
     </div>
 
     <div class="hero-third hero-container">
-      <div class="row container" v-scroll-reveal.reset="{delay:900}">
+      <div class="row container" v-scroll-reveal.reset="{delay:'900', distance:'150%'}">
         <div class="col-lg-6 mx-5">
           <h1>The Ultimate Urban Electric Bike.</h1>
 
