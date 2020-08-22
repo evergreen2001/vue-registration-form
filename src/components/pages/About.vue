@@ -31,7 +31,7 @@
       </div>
     </div>
 
-    <div class="image-areax container"></div>
+    <div class="image-areax container" v-scroll-reveal.reset={delay:1300}></div>
 
     <div class="career_area container text-white" v-scroll-reveal.reset={delay:900}>
       <p class="text-white">
@@ -41,7 +41,7 @@
       </p>
 
       <i>
-       <span class="brown_text"> Check our Job Board</span>
+       <span class="brown_text" v-scroll-reveal.reset={delay:1500}> Check our Job Board</span>
         <img src="../../assets/icon-arrow.svg" width="30" />
       </i>
     </div>

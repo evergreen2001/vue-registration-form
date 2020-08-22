@@ -3,7 +3,7 @@
 <template>
   <nav class="navbar navbar-expand navbar-light fixed-top mb-5">
     <a class="navbar-brand">
-      <img :src="imglogo" class="img-fluid logo" />
+      <!-- <img :src="imglogo" class="img-fluid logo" /> -->
     </a>
     <button
       class="navbar-toggler"

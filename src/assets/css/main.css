@@ -13,6 +13,8 @@ section {
 }
 .navbar{
   background-color:white;
+  
+
 }
 .nav-item {
   margin-left: 10px;
@@ -49,6 +51,11 @@ section h2 {
 section .hero-img {
   margin-top: 100px;
   object-position: right bottom;
+}
+
+.hero-second{
+
+  margin-bottom:300px;
 }
 
 .hero-container {
@@ -98,7 +105,10 @@ p {
   margin-bottom: 0;
 }
 
+.secondary{
+  margin-bottom:400px;
 
+}
 .roundedx {
   background-color: rgba(100, 98, 98, 0.108);
   font-size: 15px;
@@ -167,7 +177,7 @@ footer .logo {
   background-image: url(../../assets/pic.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: ;
+  background-position: center;
 }
 
 .brown_text {
