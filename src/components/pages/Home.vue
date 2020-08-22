@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-5">
+  <section class="mtx">
     <div class="container">
       <h1 class="text-center" v-scroll-reveal.reset={delay:400}>Nothing compares to the simple pleasure of Running</h1>
     </div>
@@ -29,8 +29,8 @@
       <p>Get all the pieces you need, and none of the ones that you don’t. We’ve crafted a single dead-simple service for you.</p>
 
       <div class="container">
-        <div class="icons-area row m-auto" v-scroll-reveal.reset={delay:700}>
-          <div class="col-lg-4 col-md-6 mt-5">
+        <div class="icons-area row m-auto" v-scroll-reveal.reset={delay:500}>
+          <div class="col-lg-4 col-md-6 mt-5" v-scroll-reveal.reset={delay:900}>
             <svg
               width="100"
               height="100"
@@ -67,7 +67,7 @@
               <br />electric bike
             </p>
           </div>
-          <div class="col-lg-4 col-md-6 mt-5">
+          <div class="col-lg-4 col-md-6 mt-5" v-scroll-reveal.reset={delay:1200}>
             <svg
               width="100"
               height="100"
@@ -110,7 +110,7 @@
               <br />&amp; all services included.
             </p>
           </div>
-          <div class="col-lg-4 mx-auto mt-5">
+          <div class="col-lg-4 mx-auto mt-5" v-scroll-reveal.reset={delay:1500}>
             <svg
               width="100"
               height="100"
@@ -215,7 +215,7 @@
       </div>
     </div>
     <div class="row container mt-5">
-      <div class="col-lg-6 m-auto">
+      <div class="col-lg-6 m-auto" v-scroll-reveal.reset={delay:700}>
         <img :src="phone" class="img-fluid" />
       </div>
       <div class="col-lg-6">
@@ -231,7 +231,7 @@
       </div>
     </div>
 
-    <div class="image-area container text-white">
+    <div class="image-area container text-white" v-scroll-reveal.reset={delay:1400}>
       <div class="overlay"></div>
       <div class="row">
         <div class="col-lg-6 text-white">
@@ -248,7 +248,7 @@
       </div>
     </div>
 
-    <div class="text-center container">
+    <div class="text-center container" v-scroll-reveal.reset={delay:500}>
       <h1>Request an Invite Today</h1>
 
       <p>adipisicing elit. Fugiat, commodi? Eos, incidunt error! Repudiandae, earum! Reiciendis nesciunt quis necessitatibus iusto quidem, ratione consequuntur quisquam nisi aliquid itaque ut. Modi, ea.</p>

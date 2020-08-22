@@ -1,6 +1,6 @@
 <template>
-  <section>
-    <h1 class="text-center mb-5 pb-5">Joyful movement. Sustainable Earth</h1>
+  <section class="mtx">
+    <h1 class="text-center mb-5 pb-5" v-scroll-reveal.reset={delay:600}>Joyful movement. Sustainable Earth</h1>
 
     <div class="hero-container">
       <div class="container mt-5 p-5">
@@ -12,7 +12,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container" v-scroll-reveal.reset={delay:900}>
       <div class="row">
         <div class="col-lg-6 mx-auto mt-5">
           <p>
@@ -33,7 +33,7 @@
 
     <div class="image-areax container"></div>
 
-    <div class="career_area container text-white">
+    <div class="career_area container text-white" v-scroll-reveal.reset={delay:900}>
       <p class="text-white">
        <span class="brown_text"> Our team is growing.</span> Lorem ipsum dolor sit amet
         harum vitae, odit eos porro quae cum. Corporis quisquam quam accusantium!consectetur adipisicing elit. Omnis, beatae. Modi atque veniam quidem, expedita
